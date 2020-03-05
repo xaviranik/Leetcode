@@ -5,7 +5,7 @@ def two_sum(nums, target):
 
     for i, n in enumerate(nums):
         if n in comp:
-            return [comp[n] , i]
+            return [comp[n], i]
         comp[target - n] = i
 
 a = [3, 2, 4, 1]
